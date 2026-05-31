@@ -15,6 +15,7 @@ graph TD
     A --> D["💻 03. Multi-Language Clients"]
     A --> E["⚙️ 04. Advanced Patterns"]
     A --> F["🛠️ 05. Ops & Security Tuning"]
+    A --> G["🌐 Community Resources"]
 
     style A fill:#1E293B,stroke:#38BDF8,stroke-width:3px,color:#F8FAFC
     style B fill:#0F172A,stroke:#F43F5E,stroke-width:2px,color:#F8FAFC
@@ -22,19 +23,21 @@ graph TD
     style D fill:#0F172A,stroke:#10B981,stroke-width:2px,color:#F8FAFC
     style E fill:#0F172A,stroke:#8B5CF6,stroke-width:2px,color:#F8FAFC
     style F fill:#0F172A,stroke:#F59E0B,stroke-width:2px,color:#F8FAFC
+    style G fill:#0F172A,stroke:#EC4899,stroke-width:2px,color:#F8FAFC
 ```
 
 ---
 
 ## 🗂️ Table of Contents
 
-| Module | Description | Key Focus Areas |
+| Module / Resource | Description | Key Focus Areas |
 | :--- | :--- | :--- |
 | [**`01-architecture-and-concepts`**](./01-architecture-and-concepts/) | Theoretical foundation and internal designs. | Partitions, Consumer Rebalancing, KRaft vs Zookeeper, EOS |
 | [**`02-cluster-setups`**](./02-cluster-setups/) | Instantly bootable local development clusters. | Docker-compose, KRaft clusters, Kafka-UI, Prometheus & Grafana |
 | [**`03-code-examples`**](./03-code-examples/) | Ready-to-run robust client implementations. | Python, Java Spring Boot, Go, Node.js (KafkaJS) |
 | [**`04-advanced-patterns`**](./04-advanced-patterns/) | Resilient system design patterns for enterprise. | Dead Letter Queues (DLQ), Avro & Schema Registry, Transactions |
 | [**`05-operations-and-cheat-sheets`**](./05-operations-and-cheat-sheets/) | DevOps hardening, administration, and tuning. | CLI Cheat Sheet, Latency vs Throughput Tuning, SSL & SASL |
+| [**`COMMUNITY_RESOURCES.md`**](./COMMUNITY_RESOURCES.md) | Highly curated external learning materials. | Popular YouTube channels, Substack, Medium, GitHub repos |
 
 ---
 
