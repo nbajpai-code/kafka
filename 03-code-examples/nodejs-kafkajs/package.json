@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-kafkajs-demo",
+  "version": "1.0.0",
+  "description": "Native Node.js Kafka Client using KafkaJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
