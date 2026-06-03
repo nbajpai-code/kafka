@@ -15,6 +15,7 @@ graph TD
     A --> D["💻 03. Multi-Language Clients"]
     A --> E["⚙️ 04. Advanced Patterns"]
     A --> F["🛠️ 05. Ops & Security Tuning"]
+    A --> H["🤖 06. AI & ML Integration"]
     A --> G["🌐 Community Resources"]
 
     style A fill:#1E293B,stroke:#38BDF8,stroke-width:3px,color:#F8FAFC
@@ -24,6 +25,7 @@ graph TD
     style E fill:#0F172A,stroke:#8B5CF6,stroke-width:2px,color:#F8FAFC
     style F fill:#0F172A,stroke:#F59E0B,stroke-width:2px,color:#F8FAFC
     style G fill:#0F172A,stroke:#EC4899,stroke-width:2px,color:#F8FAFC
+    style H fill:#0F172A,stroke:#06B6D4,stroke-width:2px,color:#F8FAFC
 ```
 
 ---
@@ -37,6 +39,7 @@ graph TD
 | [**`03-code-examples`**](./03-code-examples/) | Ready-to-run robust client implementations. | Python, Java Spring Boot, Go, Node.js (KafkaJS) |
 | [**`04-advanced-patterns`**](./04-advanced-patterns/) | Resilient system design patterns for enterprise. | Dead Letter Queues (DLQ), Avro & Schema Registry, Transactions |
 | [**`05-operations-and-cheat-sheets`**](./05-operations-and-cheat-sheets/) | DevOps hardening, administration, and tuning. | CLI Cheat Sheet, Latency vs Throughput Tuning, SSL & SASL |
+| [**`06-ai-and-ml-integration`**](./06-ai-and-ml-integration/) | Streaming AI/ML architectures and integration patterns. | Real-time Inference, LLM Ingestion (RAG), Embedding Pipelines |
 | [**`COMMUNITY_RESOURCES.md`**](./COMMUNITY_RESOURCES.md) | Highly curated external learning materials. | Popular YouTube channels, Substack, Medium, GitHub repos |
 
 ---
