@@ -1,0 +1,18 @@
+Using Apache Kafka for AI and ML
+Apache Kafka is not just used for big data processing. It has several uses in the world of artificial intelligence (AI) and machine learning (ML).
+
+Data ingestion for model training:
+When training data needs to be collected from distributed sources like IoT devices, machine logs and remote applications, a Kafka pipeline can be used 
+to acquire and move data for model training. During this process, data can undergo feature engineering, too, when combined with big data frameworks like 
+Apache Kafka. 
+
+Real-time model inference:
+Apache Kafka can be used as a queue for asynchronous real time inference. It can deliver live data streams to ML models to make real-time predictions. 
+The data stream can either originate from other applications or from users. The ML model service subscribes to a Kafka request queue. As new records appear 
+in the queue, the ML model service reads them, does predictions, and pushes the results to a response queue. Clients then read the results of this response queue.
+Having a queue in the middle throttles requests to the ML model service so that service is not overwhelmed by sudden request spikes.
+
+Monitoring and metrics:
+As the ML models do predictions, data needs to be collected about the inputs to the model, outputs from the model, latency, and resource utilization. 
+Such telemetry can be captured and published to a Kafka queue. Using a queue helps the ML model service to publish and move on with other tasks. 
+Metrics collection and aggregation applications can then work off the Kafka queue to process data and store results.
