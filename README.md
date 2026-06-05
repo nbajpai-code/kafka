@@ -36,7 +36,7 @@ graph TD
 | :--- | :--- | :--- |
 | [**`01-architecture-and-concepts`**](./01-architecture-and-concepts/) | Theoretical foundation and internal designs. | Partitions, Consumer Rebalancing, KRaft vs Zookeeper, EOS |
 | [**`02-cluster-setups`**](./02-cluster-setups/) | Instantly bootable local development clusters. | Docker-compose, KRaft clusters, Kafka-UI, Prometheus & Grafana |
-| [**`03-code-examples`**](./03-code-examples/) | Ready-to-run robust client implementations. | Python, Java Spring Boot, Go, Node.js (KafkaJS) |
+| [**`03-code-examples`**](./03-code-examples/) | Ready-to-run robust client implementations. | Python (Confluent, HBase/HappyBase), Java Spring Boot, Go, Node.js |
 | [**`04-advanced-patterns`**](./04-advanced-patterns/) | Resilient system design patterns for enterprise. | Dead Letter Queues (DLQ), Avro & Schema Registry, Transactions |
 | [**`05-operations-and-cheat-sheets`**](./05-operations-and-cheat-sheets/) | DevOps hardening, administration, and tuning. | CLI Cheat Sheet, Latency vs Throughput Tuning, SSL & SASL |
 | [**`06-ai-and-ml-integration`**](./06-ai-and-ml-integration/) | Streaming AI/ML architectures and integration patterns. | Real-time Inference, LLM Ingestion (RAG), Embedding Pipelines |

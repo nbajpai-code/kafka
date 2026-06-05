@@ -11,6 +11,7 @@ This module contains **complete, functional, and well-structured code templates*
 | Language | Client Library | Features Highlighted |
 | :--- | :--- | :--- |
 | [**🐍 Python**](./python-confluent/) | `confluent-kafka` | High performance (librdkafka binding), manual offset commit, error catching. |
+| [**🛢️ Python HBase**](./python-hbase/) | `confluent-kafka`, `happybase` | Wide-column database sink ingestion, automated schema verification, dry-run/mock fallbacks. |
 | [**☕ Java (Spring Boot)**](./java-spring-boot/) | `spring-kafka` | Auto-serialization, structured retry policy, Dead Letter Topic (DLT) routing. |
 | [**🐹 Go**](./go-segmentio/) | `segmentio/kafka-go` | Pure Go implementation, concurrent partition reading, standard library context handling. |
 | [**🟢 Node.js**](./nodejs-kafkajs/) | `kafkajs` | Zero-dependency JS native client, batch consumer processing, async event loops. |
@@ -41,4 +42,4 @@ Each client application is pre-configured to:
 *   **Error Logging:** High-fidelity console logging prints event status and tracks connectivity problems immediately.
 
 ---
-*Let's check out the Python implementation utilizing the ultra-fast confluent client:* **[Go to Python Client ➡️](./python-confluent/)**
+*Let's check out the Python implementations:* **[Standard Python Client ➡️](./python-confluent/)** | **[HBase / HappyBase Multi-Sync Client ➡️](./python-hbase/)**
